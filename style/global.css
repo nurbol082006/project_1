@@ -1,0 +1,54 @@
+.block {
+  display: flex;
+  margin: 0 auto;
+  padding: 150px;
+}
+body {
+  background: #000;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+body:hover {
+  background: #565667;
+}
+
+.header-inner {
+  width: 500px;
+  padding: 0 50px;
+  background-color: aquamarine;
+}
+.header-inner:hover {
+  height: 500px;
+  position: relative;
+  bottom: 50px;
+  transform: rotate(360deg);
+  transition: 1s;
+  background: rgb(2, 126, 226);
+}
+.header-inner-steyk {
+  padding: 0 50px;
+  width: 500px;
+  background-color: red;
+}
+.header-inner-steyk:hover {
+  height: 500px;
+  position: relative;
+  bottom: 50px;
+  background:orange;
+  transform: rotate(360deg);
+  transition: 2s;
+}
+
+.header-inner-logo {
+  padding: 0 50px;
+  width: 500px;
+  background-color: blueviolet;
+}
+.header-inner-logo:hover {
+  height: 500px;
+  position: relative;
+  bottom: 50px;
+  background: green;
+  transform: rotate(360deg);
+  transition: 3s;
+}
